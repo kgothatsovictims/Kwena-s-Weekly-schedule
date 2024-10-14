@@ -1,0 +1,31 @@
+
+
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px; 
+    overflow: hidden;
+  }
+  
+  .table  {
+    border: 2px solid brown;
+    border-radius: 10px; 
+  }
+  
+  img{
+    border-radius: 50%;
+  }
+
+  .move{
+    animation: animate 3s linear infinite;
+}
+  
+@keyframes animate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
